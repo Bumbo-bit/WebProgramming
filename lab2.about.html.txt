@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            Lab 2 - About
+        </title>
+    </head>
+    <body>
+        <h1>
+            About Lab 2
+        </h1>
+        <p>
+            The purpose of this lab is to create two html sites and make a table with links using relative and absolute paths
+        </p>
+    </body>
+    <table>
+        <tr>
+            <td>
+                Relative Path
+            </td>
+            <td>
+                <a href="./lab2-home.html.txt">Lab 2 Home</a>
+            </td>   
+            <td>
+                <a href="mailto:hawhite7104@gmail.com">My email</a>
+            </td>
+        </tr>
+    </table>
+</html>

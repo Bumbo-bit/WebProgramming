@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            Lab 2 - Home
+        </title>
+        <body>
+            <h1>
+                Hello Welcome to Lab 2 Home!!!
+            </h1>
+            <p>
+                The purpose of this lab is to create two html sites and make a table with links using relative and absolute paths
+            </p>
+        </body>
+    </head>
+    <table>
+        <tr>
+            <td>Relative path</td>
+            <td>
+                <a href="./lab2.about.html.txt">Lab 2 ABout</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Absolute Path</td>
+            <td>
+                <a href="https://archidekt.com/">Archidekt</a>
+            </td>
+            <td>
+                <a href="https://www.tri-c.edu/">Tri-C Homepage</a>
+            </td>
+            <td>
+                <a href="https://www.tri-c.edu/programs/information-technology/index.html">Tri-C IT Page</a>
+            </td>
+        </tr>
+    </table>
+</html>
+
