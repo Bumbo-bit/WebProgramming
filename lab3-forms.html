@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+        </p>
+        <p>
+            <label for="mail">Email:</label>
+            <input for="email" id="mail" name="user_email" />
+        </p>
+        <p>
+            <label for="coffee">Coffee Type:</label>
+            <select id="coffee_type" name="coffee">
+                <option>Latte</option>
+                <option selected>Cappuccino</option>
+                <option>Americano</option>
+                <option>Expresso</option>
+                <option>Hot Cocoa</option>
+            </select>
+        </p>
+        <fieldset>
+            <legend>What size for coffee</legend>
+                <ul>
+                    <li>
+                        <label for="small">Small</label>
+                        <input type="radio" id="small" name="size" value="small" />
+                    </li>
+                    <li>
+                        <label for="medium">Medium</label>
+                        <input type="radio" id="medium" name="size" value="medium" />
+                    </li>
+                    <li>
+                        <label for="large">Large</label>
+                        <input type="radio" id="large" name="size" value="large" />
+                    </li>
+                </ul>
+        </fieldset>
+        <fieldset>
+            <legend>What toppings would you like?</legend>
+                <ul>
+                    <li>
+                        <label for="cream">Whipped Cream</label>
+                        <input type="checkbox" id="cream" name="topping" value="cream" />
+                    </li>
+                    <li>
+                        <label for="extra">Extra Shot</label>
+                        <input type="checkbox" id="extra" name="topping" value="extra" />
+                    </li>
+                    <li>
+                        <label for="almond">Almond Milk</label>
+                        <input type="checkbox" id="almond" name="topping" value="almond" />
+                    </li>
+                </ul>
+        </fieldset>
+        <p>
+            <label for="Special">Special Instructions</label>
+            <textarea cols="30" rows="8"></textarea>
+        </p>
+        <p class="button">
+            <button type="submit">Send your order</button>
+        </p>
+    </form>
+  </body>
+  
+</html>
