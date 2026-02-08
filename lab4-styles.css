@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(234, 149, 38);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#firstp{
+    color: red;
+    padding: 10px;
+}
+#secondp{
+    color: blue;
+    padding: 10px;
+}
+#thirdp{
+    color: yellow;
+    padding: 10px;
+}
+#firstli{
+    color: red;
+}
+#secondli{
+    color: blue;
+}
+#thirdli{
+    color: yellow;
+}
+a{
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+}
+.styledbox{
+    border: 4px solid black;
+    background-color: lightgray;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
